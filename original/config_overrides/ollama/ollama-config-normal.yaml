@@ -1,9 +1,9 @@
 API:
   LARGE_API_KEY: key-here
-  LARGE_MODEL: mistral
+  LARGE_MODEL: gemma3:4b
   LARGE_BASE_URL: http://localhost:11434/v1
   LARGE_MODE: api
-  SMALL_MODEL: mistral
+  SMALL_MODEL: gemma3:4b
   SMALL_BASE_URL: http://localhost:11434/v1
   SMALL_API_KEY: key-here
   SMALL_MODE: api
@@ -28,10 +28,10 @@ SKIP:
 SYSTEM:
   CHUNK_SIZE: 1900
   COMPLETION_MODE: false
-  CONCURRENCY_LIMIT: 50
+  CONCURRENCY_LIMIT: 1
   CONVERSATION_INSTRUCTIONS: For this conversation, you are generating a chat between
     a generalist, generic AI assistant, and a human.
-  DOUBLE_CHECK_COUNTER: 1
+  DOUBLE_CHECK_COUNTER: 3
   DO_NOT_USE_SYSTEM_PROMPTS: true
   FINAL_ASSISTANT_PROMPTS_NO_RAG:
   - You are a helpful AI assistant.
