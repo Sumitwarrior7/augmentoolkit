@@ -1,4 +1,6 @@
+AsyncAPI Blogs Data Part 2
 
+================================================================================
 
 Post 65
 ID: https://www.asyncapi.com/blog/release-notes-2.3.0?utm_source=rss
